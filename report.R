@@ -38,7 +38,7 @@ heart_task <- TaskClassif$new(id = "fatal.detect",
                                positive = '0')
 # define resampling
 cv5 <- rsmp("cv", folds = 5)
-cv5$instantiate(heart_task)# 会分出train和test
+cv5$instantiate(heart_task)# 禄谩路脰鲁枚train潞脥test
 cv5$instantiate(heart_task)
 
 #train = list(c(1:10, 51:60, 101:110)),
